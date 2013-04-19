@@ -12,7 +12,7 @@
 
 \begin{document}
 
-\title{LSST Data Management: Summer 2013 Data Challenge Plan}
+\title{LSST Data Management: Summer 2013 Data Challenge Plan (DRAFT)}
 \author{LSST Data Management}
 \date{\today{}, \currenttime \\ \vspace{0.5em} \InputIfFileExists{version.tex}{}{} }
 \maketitle
@@ -24,9 +24,10 @@ In general, LSST/DM needs to be able to fit a linear combination of
 analytic models to observed objects. The obvious ones we need to
 support are elliptical Sersic and point source models. The former
 are crucial for extended source characterization and shape
-measurement and will be the focus of pre-FDR development.
+measurement and will be the focus of pre-FDR (Final Design Review)
+development.
 
-In the near term (in pre-FDR development phase), we plan to implement
+In the near term (pre-FDR), we plan to implement
 code that will fit a linear combination of bulge (Sersic $n=4$) and
 exponential disk (Sersic $n=1$) models with common ellipticity. The
 free parameters include: ellipticity ($e_1$, $e_2$), scale lengths
